@@ -1,0 +1,16 @@
+.StoreSpecificInfo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:5px 10px;
+}
+
+.StoreSpecificInfo h1{
+    font-size:14px;
+}
+
+.StoreSpecificInfo p{
+    font-size:12px;
+}
+

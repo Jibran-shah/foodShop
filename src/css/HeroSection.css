@@ -1,0 +1,42 @@
+.HeroSection{
+    --HeroSecion-height:400px;
+    background-color:rgba(19, 19, 87, 0.305);
+    overflow-y:hidden;
+    position:relative;
+    width:100%;
+    height:var(--HeroSecion-height);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.HeroSectionText{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:5px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.HeroSectionTextHeading span{
+    display:block;
+    margin:5px;
+    z-index:1;
+}
+
+.Tint *{
+    z-index:2;
+}
+
+.Tint::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    background-image:url("../images/HeroSection.jpg");
+    background-size:cover;
+    width:100%;
+    height:var(--HeroSecion-height);
+    opacity:0.5;
+}

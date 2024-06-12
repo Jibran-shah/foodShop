@@ -1,0 +1,10 @@
+.FoodCategories{
+    width:100%;
+    height:60px;
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    padding:40px 5px;
+}

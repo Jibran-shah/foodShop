@@ -1,0 +1,14 @@
+.Button{
+    padding:4px 15px;
+    border-radius:25px;
+    background-image:linear-gradient(to right,rgb(211, 38, 38),rgb(184, 12, 226));
+    margin:10px;
+    margin:2px 2px;
+    letter-spacing:-1px;
+    word-spacing:5px;
+    display:flex;
+    width:fit-content;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}

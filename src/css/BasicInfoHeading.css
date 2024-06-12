@@ -1,0 +1,8 @@
+.BasicInfoHeading{
+    padding:5px 20px;
+    flex-grow:1;
+}
+
+.BasicInfoHeading p{
+    font-size:10px;
+}

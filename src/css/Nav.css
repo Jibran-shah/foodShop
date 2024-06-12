@@ -1,0 +1,32 @@
+.Nav{
+    background-color:rgba(68, 66, 115,0.5);
+    height:50px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-inline:10px;
+}
+.Nav div{
+    text-align:center;
+    align-content:center;
+    white-space:nowrap;
+    padding-inline:8px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-left:15px;
+    margin-right:5px;
+}
+#Menu{
+    display:none;
+}
+#home{
+    margin-left:auto;
+}
+
+.WebsiteLogo{
+    width:40px;
+    height:40px;
+}

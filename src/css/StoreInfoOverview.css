@@ -1,0 +1,8 @@
+.StoreInfoOverview{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    align-items:end;
+    padding:5px 20px;
+    margin-top:50px;
+}

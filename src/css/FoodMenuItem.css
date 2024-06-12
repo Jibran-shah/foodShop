@@ -1,0 +1,46 @@
+.FoodMenuItem{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    overflow:hidden;
+    padding-bottom:5px;
+    height:180px;
+    width:160px;
+    box-shadow:2px 2px 5px rgba(107, 57, 172, 0.5),-2px -2px 3px rgba(121, 77, 183, 0.4);
+}
+
+.FoodMenuItem:hover{
+    box-shadow:2px 2px 5px rgba(66, 7, 144, 0.5),-2px -2px 3px rgba(53, 6, 119, 0.4);
+}
+
+
+
+.FoodMenuItem .Name{
+    font-size:14px;
+    margin-top:10px;
+    bottom:0;
+}
+
+.Star{
+    width:10px;
+    height:10px;
+}
+
+.FoodMenuItem .Stars{
+    font-size:18px;
+    margin-bottom:10px;
+    margin-top:3px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    gap:2px;
+}
+
+.FoodMenuItem img{
+    width:100%;
+    display:block;
+    margin:0px;
+}
