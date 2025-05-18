@@ -4,9 +4,6 @@
 
 ## 🚀 Features
 - 📖 Browse a dynamic restaurant menu with images, prices, and item descriptions  
-- 🛒 Add, remove, and update items in the cart in real time  
-- 📦 Place food orders online with delivery or pickup options  
-- 🔍 Filter or search menu items easily  
 - 📱 Mobile-responsive design for seamless use on any device  
 - ⚛️ Built with React components for a fast, interactive UI
 
